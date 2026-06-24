@@ -1,0 +1,20 @@
+event_inherited()
+moveable = true
+dir = 270
+move = 0
+impact = 0
+_gravity_jump = 0.14
+_speed_jump = 4.5
+_gravity_fall = 0.2
+_jump_time = 0
+_stop_time = 0
+_jump = 3
+_dir = -1
+alarm[0] = 1
+p = part_type_create()
+part_type_alpha2(p, 1, 0)
+part_type_life(p, 25, 25)
+part_type_sprite(p, 19, 0, 0, 0)
+part_type_orientation(p, image_angle, image_angle, 0, 0, 0)
+
+instance_create_depth(battle_soul.x,battle_soul.y,0,battle_soul_blue_orange_effect)

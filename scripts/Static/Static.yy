@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Static",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Static",
+  "parent":{
+    "name":"GameOver",
+    "path":"folders/Scripts/Battle/GameOver.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

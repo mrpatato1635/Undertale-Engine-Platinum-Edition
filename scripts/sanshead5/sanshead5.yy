@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sanshead5",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sanshead5",
+  "parent":{
+    "name":"SansHead",
+    "path":"folders/Scripts/SansHead.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sansbody",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sansbody",
+  "parent":{
+    "name":"SansBody",
+    "path":"folders/Scripts/SansBody.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

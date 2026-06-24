@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_Instant_Noodles",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_Instant_Noodles",
+  "parent":{
+    "name":"CustomItems",
+    "path":"folders/Scripts/Item/CustomItems.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

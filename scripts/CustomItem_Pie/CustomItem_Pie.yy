@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_Pie",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_Pie",
+  "parent":{
+    "name":"CustomItems",
+    "path":"folders/Scripts/Item/CustomItems.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

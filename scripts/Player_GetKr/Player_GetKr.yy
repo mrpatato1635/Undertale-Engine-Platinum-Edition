@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Player_GetKr",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Player_GetKr",
+  "parent":{
+    "name":"KR",
+    "path":"folders/Scripts/KR.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

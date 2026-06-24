@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_Snowman_Piece",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_Snowman_Piece",
+  "parent":{
+    "name":"CustomItems",
+    "path":"folders/Scripts/Item/CustomItems.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

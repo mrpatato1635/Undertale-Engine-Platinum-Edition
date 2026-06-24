@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sansheadsweat2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sansheadsweat2",
+  "parent":{
+    "name":"SansHeadSweat",
+    "path":"folders/Scripts/SansHeadSweat.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Kr_Init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Kr_Init",
+  "parent":{
+    "name":"KR",
+    "path":"folders/Scripts/KR.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

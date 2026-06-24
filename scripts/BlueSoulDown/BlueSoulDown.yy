@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BlueSoulDown",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BlueSoulDown",
+  "parent":{
+    "name":"BlueSoulControl",
+    "path":"folders/Scripts/BlueSoulControl.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
