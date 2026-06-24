@@ -6,7 +6,6 @@ This Project Is Based By Gamemaker Studio 2 Undertale Engine TML Somehow This En
 
 
 ## Featues
-# These Project Undertale Engine Platinum Edition Features Include:
 *   Battle Turn Flowing (`battle_turn_sans`).
 *   Battle Bullet Attacks (`battle_bullet`, `bullet_bone`, `battle_bullet_wbonestab`, `battle_bullet_gb`)
 *   Sans Item Example (`Item_Custom`).
