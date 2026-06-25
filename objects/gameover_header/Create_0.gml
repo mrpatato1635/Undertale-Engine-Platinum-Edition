@@ -5,6 +5,7 @@ phase = 0;
 phasetimer = 0;
 mode = 1;
 sel = 0;
+image_speed = 0;
 
 function draw_text_spaced(_x, _y, _str, _xscale, _yscale, _angle, _spacing)
 {

@@ -26,9 +26,19 @@ This Project Is Based By Gamemaker Studio 2 Undertale Engine TML Somehow This En
 *  IDE v2024.14.0.207
 *  Runtimes v2024.14.0.251
 
+## Undertale Resource Used And Credits
+* Bone Engine By Beatle
+* SB By MR
+* Platform And Blue Soul By SuWa1298
+* Gaster Blaster V2 Original By TML Modified by RTF 
+* KR By SuWa1298
+* GB Script SuWa1298
+* BlueSoulControl By Sizukani5608
+* Sans Sprite Move By Sizukani5608
+* Settings Menu By Techo
+* 10Th Anniversary Gameover By Techo
+
 ## I Have A Problem Of This Engine
 If You Having Problem Of This Engine Ask In
 Blackblox Discord Server On Support Channel
-
-
 
