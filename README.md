@@ -22,7 +22,7 @@ This Project Is Based By Gamemaker Studio 2 Undertale Engine TML Somehow This En
 *   Sans KR (`hurter`)
 
 ## Requirement
-*  Gamemaker Studio v2.3.0 Or Higher
+*  Gamemaker Version v2024.14
 *  IDE v2024.14.0.207
 *  Runtimes v2024.14.0.251
 
