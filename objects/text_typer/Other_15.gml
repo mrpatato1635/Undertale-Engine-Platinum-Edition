@@ -45,6 +45,16 @@ _group_font_scale_y[2,1]=real(Lang_GetString("font.battle.1.scale.y"));
 _group_font_space_x[2,1]=real(Lang_GetString("font.battle.1.space.x"));
 _group_font_space_y[2]=real(Lang_GetString("font.battle.space.y"));
 
+_group_font[3,0]=Lang_GetFont(Lang_GetString("font.sans.0"));
+_group_font_scale_x[3,0]=real(Lang_GetString("font.sans.0.scale.x"));
+_group_font_scale_y[3,0]=real(Lang_GetString("font.sans.0.scale.y"));
+_group_font_space_x[3,0]=real(Lang_GetString("font.sans.0.space.x"));
+_group_font[3,1]=Lang_GetFont(Lang_GetString("font.sans.1"));
+_group_font_scale_x[3,1]=real(Lang_GetString("font.sans.1.scale.x"));
+_group_font_scale_y[3,1]=real(Lang_GetString("font.sans.1.scale.y"));
+_group_font_space_x[3,1]=real(Lang_GetString("font.sans.1.space.x"));
+_group_font_space_y[3]=real(Lang_GetString("font.sans.space.y"));
+
 _group_voice[0,0]=snd_text_voice_default;
 _group_voice[1,0]=snd_text_voice_typer;
 
