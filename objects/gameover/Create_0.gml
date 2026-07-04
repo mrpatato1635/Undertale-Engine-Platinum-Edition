@@ -1,6 +1,7 @@
 check = false;
 checkGMOver = false;
 _mode = Storage_GetInfo();
+image_speed = 0; 
 
 var temp = Storage_GetTempGeneral();
 x = temp.Get(FLAG_TEMP_GAMEOVER_SOUL_X, 320);
