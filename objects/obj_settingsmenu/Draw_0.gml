@@ -10,48 +10,14 @@ var current_lang_label = lang_labels[lang_case];
 draw_set_font(Lang_GetFont(Lang_GetString("font.dialog.0")));
 
 buffer -= 1;
-
-if (weather == 1) {
-    var c = instance_create_depth(offset, 0, depth, obj_ct_fallobj);
-    c.sprite_index = spr_christmasflake;
-    siner += 1;
-    draw_sprite_ext(spr_tobdog_winter, 0, 250 + offset, 218 + offsety + offset, 1, 1, 0, c_white, 1);
-    draw_set_color(c_gray);
-    draw_text_transformed(220 + offset + sin(siner / 12), 120 + offsety + offset + offsety2 +cos(siner / 12), "cold outside\nbut stay warm\ninside of you", textsize, textsize, -20);
-}
-else if (weather == 2) {
+if (weather == 2) {
     var c = instance_create_depth(offset, 0, depth, obj_ct_fallobj);
     c.sprite_index = spr_fallleaf;
     c.image_blend = merge_color(c_red, c_white, 0.5);
     siner += 1;
     draw_sprite_ext(spr_tobdog_spring, floor(siner / 15), 250 + offset, 218 + offsety + offset, 1, 1, 0, c_white, 1);
     draw_set_color(c_gray);
-    draw_text_transformed(220 + offset + sin(siner / 12), 120 + offsety + offset +offsety2 + cos(siner / 12), "spring time\nback to school", textsize,textsize, -20);
-}
-else if (weather == 3) {
-    extreme2 += 1;
-    if (extreme2 >= 240) {
-        extreme += 1;
-        if (extreme >= 1100 && abs(sin(siner / 15)) < 0.1) {
-            extreme = 0;
-            extreme2 = 0;
-        }
-    }
-    siner += 0.5;
-    draw_sprite_ext(spr_tobdog_summer, floor(siner / 15), 250 + offset, 225 + offset, 2 + (sin(siner / 15) * (0.2 + (extreme / 900))), 2 - (sin(siner / 15) * (0.2 + (extreme / 900))), 0, c_white, 1);
-    draw_set_color(c_yellow);
-    draw_circle(258 + offset + (cos(siner / 18) * 6), 40 + offsety + offset + 40 + (sin(siner / 18) * 6), 28 + (sin(siner / 6) * 4), 0);
-    draw_set_color(c_gray);
-    draw_text_transformed(200 + offset + sin(siner / 12), 110 + offsety + offset + offsety2 + cos(siner / 12), "try to withstand\nthe sun's life-\ngiving rays", textsize, textsize, -20);
-}
-else if (weather == 4) {
-    var c = instance_create_depth(offset, 0, depth, obj_ct_fallobj);
-    c.sprite_index = spr_fallleaf;
-    c.image_blend = choose(c_red, c_yellow, merge_color(c_red, c_yellow, 0.5));
-    siner += 1;
-    draw_sprite_ext(spr_tobdog_autumn, 0, 250 + offset, 218 + offsety + offset, 1, 1, 0, c_white, 1);
-    draw_set_color(c_gray);
-    draw_text_transformed(220 + offset + sin(siner / 12), 120 + offsety + offset + offsety2 + cos(siner / 12), "sweep a leaf\nsweep away a\ntroubles", textsize, textsize, -20);
+    draw_text_transformed(220 + offset + sin(siner / 12), 120 + offsety + offset +offsety2 + cos(siner / 12), "this is a\nsettings example", textsize,textsize, -20);
 }
 
 var menu_options = ["EXIT", "BORDER"];
@@ -133,7 +99,7 @@ draw_set_color(c_white);
 draw_text_transformed(160 + offset, 10 - offsety + offset, "SETTINGS", 2, 2, 0);
 draw_set_valign(fa_bottom);
 draw_set_color(c_gray)
-draw_text_transformed(320/2, 475/2, "UNDERTALE "+ENGINE_VERSION+" (C) TOBY FOX 2015", 0.5, 0.5, 0);
+draw_text_transformed(320/2, 475/2, "UNDERTALE ENGINE PLATUNUM EDITION (C) BLACKBLOX 2025-2026", 0.5, 0.5, 0);
 draw_set_color(c_white)
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
