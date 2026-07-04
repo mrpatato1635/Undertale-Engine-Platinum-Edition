@@ -123,6 +123,8 @@
     {"$GMIncludedFile":"","%Name":"determination_sans.ttf","CopyToMask":-1,"filePath":"datafiles/locale/english/font","name":"determination_sans.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"dotumche.ini","CopyToMask":-1,"filePath":"datafiles/locale/english/font","name":"dotumche.ini","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"dotumche.ttf","CopyToMask":-1,"filePath":"datafiles/locale/english/font","name":"dotumche.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"pixel_comic_sans.ini","CopyToMask":-1,"filePath":"datafiles/locale/english/font","name":"pixel_comic_sans.ini","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"pixel_comic_sans.ttf","CopyToMask":-1,"filePath":"datafiles/locale/english/font","name":"pixel_comic_sans.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"sprite.txt","CopyToMask":-1,"filePath":"datafiles/locale/english","name":"sprite.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"battle_button_act.ini","CopyToMask":-1,"filePath":"datafiles/locale/english/sprite","name":"battle_button_act.ini","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"battle_button_act.png","CopyToMask":-1,"filePath":"datafiles/locale/english/sprite","name":"battle_button_act.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -145,7 +147,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"UndertaleEngine-Platinum-Edition",
   "resources":[
@@ -567,8 +569,6 @@
     {"id":{"name":"Storage_InitUninit","path":"scripts/Storage_InitUninit/Storage_InitUninit.yy",},},
     {"id":{"name":"Storage","path":"scripts/Storage/Storage.yy",},},
     {"id":{"name":"mus_options_fall","path":"sounds/mus_options_fall/mus_options_fall.yy",},},
-    {"id":{"name":"mus_options_summer","path":"sounds/mus_options_summer/mus_options_summer.yy",},},
-    {"id":{"name":"mus_options_winter","path":"sounds/mus_options_winter/mus_options_winter.yy",},},
     {"id":{"name":"snd_bell","path":"sounds/snd_bell/snd_bell.yy",},},
     {"id":{"name":"snd_bonewarn","path":"sounds/snd_bonewarn/snd_bonewarn.yy",},},
     {"id":{"name":"snd_break_0","path":"sounds/snd_break_0/snd_break_0.yy",},},
