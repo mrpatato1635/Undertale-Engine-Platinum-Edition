@@ -1,8 +1,15 @@
 _turn = 0 // Current Turn Number 
-_firstattack = false //Pre-Turn Attack Just Like Sans First Attack
+_firstattack = false // Pre-Turn Attack Just Like Sans First Attack
 avoid = true // Make Enemy Dodge Attack Just Like Sans
 Battle_SetTurnInfo(BATTLE_TURN.TIME,-1) //Set The battle_turn Time To Unlimited
+if (global.dynamic == 1)
+    Border_SetSprite(spr_border_simple, 0, true, 100)
 
+if (global.dynamic == 1)
+    Border_SetSprite(spr_border_simple, 1, true, 100)
+// You Can Change Border Sprite By Change The Index Number
+if (global.dynamic == 1)
+    Border_SetSprite(spr_border_simple, 7, true, 100)
 head_sprite = spr_sans_head  // Sans Head
 body_sprite = spr_sans_body  // Sans Body
 body_blood_sprite = spr_sans_body_blood  // Sans Body With Blood
