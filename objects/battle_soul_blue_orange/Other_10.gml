@@ -1,4 +1,3 @@
 ///@desc Bullet Collision
-if(_inv<=0){
-	Battle_CallBulletEventSoulCollision();
-}
+if!(instance_exists(hurter))
+	instance_create_depth(0,0,0,hurter);

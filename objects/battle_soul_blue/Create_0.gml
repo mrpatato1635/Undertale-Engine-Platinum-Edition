@@ -11,4 +11,3 @@ _gravity_fall_max=5;
 
 _platform_bounce_met=false;
 
-instance_create_depth(battle_soul.x,battle_soul.y,0,battle_soul_blue_effect)
