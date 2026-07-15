@@ -12,12 +12,6 @@ if scale_y <= 1.999 {
 }else if scale_y >= 3 {
 	audio_sound_pitch(sid,0.875);
 }
-
-if scale_y >= 2 {
-	Camera_Shake(15+scale_y*0.425,11+scale_x*0.425,1,1,1,1);
-}else if scale_y <= 2 {
-	Camera_Shake(8+scale_y*0.425,5+scale_x*0.425,1,1,1,1);
-}
 alarm[3]=6;
 alarm[4]=8;
 alarm[5]=time_release_stay+1;
