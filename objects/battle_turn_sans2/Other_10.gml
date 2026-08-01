@@ -8,4 +8,4 @@ Battle_SetTurnInfo(BATTLE_TURN.BOARD_LEFT,65);
 Battle_SetTurnInfo(BATTLE_TURN.BOARD_RIGHT,65);
 //This Is A Battle DIalog Example
 var txt = instance_create_depth(420,150,0,battle_dialog_enemy);
-txt.text = "testing";
+txt.text = "testing gb";

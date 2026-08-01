@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":54.870205,
+  "duration":54.87021,
   "exportDir":"",
   "name":"mus_options_fall",
   "parent":{
@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"mus_options_fall.ogg",
   "volume":1.0,
 }
