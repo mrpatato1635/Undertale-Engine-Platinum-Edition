@@ -38,7 +38,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_trigger",
     "path":"sprites/spr_trigger/spr_trigger.yy",
