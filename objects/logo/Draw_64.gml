@@ -1,5 +1,4 @@
 draw_sprite_ext(spr_logo,0,320,240,2,2,0,c_white,1);
-draw_sprite_ext(spr_platinum_edition,0,320,320,2,2,0,c_white,1);
 if(_hint){
 	draw_set_font(font_crypt_of_tomorrow);
 	draw_set_halign(fa_middle);
